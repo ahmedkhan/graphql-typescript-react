@@ -5,7 +5,7 @@ import './styles.css';
 interface Props {
   data: LaunchListQuery;
 }
-
+ 
 const className = 'LaunchList';
 
 const LaunchList: React.FC<Props> = ({ data }) => (
